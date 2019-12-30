@@ -11,6 +11,31 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "position": "bottom-left",
+    "content": {
+      "message": "Diese Website benutzt Cookies &amp; Matomo, eine Software zur statistischen Auswertung der Besucherzugriffe. Informationen und eine Widerspruchsmöglichkeit dazu finden Sie in unserer Datenschutzerklärung.",
+      "dismiss": "OK, verstanden",
+      "link": "Zur Widerspruchsmöglichkeit",
+      "href": "https://mvbuddies.de/datenschutzerklaerung/#dsg-matomo"
+    }
+  })});
+  </script>
+
+
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% include gtag.html %}

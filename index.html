@@ -1,12 +1,56 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: MV Buddies
+subtitle: Wir sind eine Gaming sowie Coding Community
 use-site-title: true
+bigimg:
+  - "/img/big-imgs/apex.jpg" : "Apex Legends"
+  - "/img/big-imgs/ets2.jpg" : "Euro Truck Simulator 2"
+  - "/img/big-imgs/gmod.jpg" : "Eigener Garry's Mod (TTT) Server"
+  - "/img/big-imgs/hytale.jpg" : "Hyped auf Hytale"
+  - "/img/big-imgs/rs6.jpg" : "Rainbow Six Siege"
 ---
 
+<p class="box-warning"><strong>Die Webseite befindet sich noch im Aufbau!</p>
+<!--<p class="box-warning"><strong>Die Webseite befindet sich noch im Aufbau! Im Forum ist es noch nicht möglich sich zu registrieren. <a href="https://status.mvbuddies.de"target="_blank">Mehr Infos</a>.</p>
+-->
+
+<div style="text-align:center">
+<!--<strong>Quick Links:</strong> &nbsp;&nbsp;-->
+<a href="https://forum.mvbuddies.de" role="button" class="btn btn-primary">Forum</a>
+<a href="https://blog.mvbuddies.de" role="button" class="btn btn-primary">Blog</a>
+<a href="https://feedback.mvbuddies.de" role="button" class="btn btn-primary">Feedback</a>
+<a href="https://status.mvbuddies.de" role="button" class="btn btn-primary">Status</a>
+</div>
+<br><br>
+<!-- Typed.js -->
+<script src="/js/jquery-1.11.2.min.js"></script> <!-- Typed.js uses old jquery ver -->
+<script src="/js/typed.js" type="text/javascript"></script>
+<script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["Gamer.","Coder.", "Alt.", "Jung.", "Anfänger.", "Profis.", "Jeden."],
+      typeSpeed: 100,
+      loop: true,
+      backDelay: 1000
+
+    });
+  });
+</script>
+
+<div class="mobile-js-hide">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+          <h1>Wir sind eine Community für <span class="typed" style="color:#890000";></span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!-- Typed.js uses old jquery ver
 <div class="posts-list">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts limit: 3 %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
@@ -34,7 +78,7 @@ use-site-title: true
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Mehr&nbsp;erfahren]</a>
         {% endif %}
       </div>
     </div>
@@ -60,13 +104,14 @@ use-site-title: true
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Neuere Projekte</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Ältere Projekte &rarr;</a>
   </li>
   {% endif %}
 </ul>
 {% endif %}
+-->

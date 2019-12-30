@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://username.github.io"
+url: "https://mvbuddies.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,25 +14,35 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: MV Buddies Communityy
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Gaming und Coding
+
+
+
+
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  <font color="#890000">Beitreten</font>: "http://discord.mvbuddies.de" #join
+  <strike>Über uns</strike>: "#" #aboutus
+  Projekte:
+    - Alle Projekte: "projects" #projects
+    - Gaming Projekte: "projects/gaming" #projects/gaming
+    - Coding Projekte: "projects/coding" #projects/coding
+  Mehr:
+    - Forum: "https://forum.mvbuddies.de"
+    - Blog: "https://blog.mvbuddies.de"
+    - Feedback: "https://feedback.mvbuddies.de"
+    - Status: "https://status.mvbuddies.de"
+    - <strike>Projekt suchen</strike>: "#" #https://mvbuddies.de/search
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/nerd-1x1.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -64,18 +74,18 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: MV Buddies
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+#  rss: false
+   email: "mail@mvbuddies.de"
+#  facebook: daattali
+   github: mvbuddies
+   twitter: mv_buddies
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -83,12 +93,14 @@ social-network-links:
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-#  youtube: user/deanat78
+   youtube: /channel/UCYY7j4l2nVSi9evId-eLgoQ
 #  spotify: yourname
 #  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
+   steam: https://s.team/chat/HWjmp5sD
+   twitch: mvbuddies
 #  yelp: yourname
+   telegram: http://tg.mvbuddies.de
+   discord: http://discord.mvbuddies.de
 
 # Select which share links to show in posts
 share-links-active:
@@ -99,7 +111,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "mvbuddies.de"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -116,15 +128,15 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
 
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
+matomo:
+  site_id: "2"
+  uri: "data.mvbuddies.de"
+  opt-out: true
 
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "mvbuddies"
 # If you want to use just-comments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
 
@@ -158,10 +170,10 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /projects/:categories/:title/
 paginate: 5
 
 kramdown:
@@ -253,6 +265,8 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-category-pages
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

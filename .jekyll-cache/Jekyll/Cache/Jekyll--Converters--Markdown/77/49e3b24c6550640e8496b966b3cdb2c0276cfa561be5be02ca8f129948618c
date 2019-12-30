@@ -1,0 +1,55 @@
+I")<!-- Typed.js uses old jquery ver-->
+<div class="posts-list">
+
+  
+  
+  
+  <article class="post-preview">
+    <a href="/projects/coding/garrys-mod-ttt/">
+	  <h2 class="post-title">Wie installiere ich einen Garry's Mod TTT Server? (+ Steam Workshop)</h2>
+
+	  
+	  <h3 class="post-subtitle">
+	    Auf Ubuntu Server 16.04/18.04 mit Steam Workshop
+	  </h3>
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on April 15, 2019
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Wenn du wissen willst wie Du auf dem Server kommst schau doch mal beim Blogpost in der Kategorie Gaming vorbei.
+
+        
+        
+          <a href="/projects/coding/garrys-mod-ttt/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#ttt">ttt</a>
+      
+      <a href="/tags#gmod">gmod</a>
+      
+      <a href="/tags#server">server</a>
+      
+      <a href="/tags#ubuntu">ubuntu</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+</div>
+
+:ET
