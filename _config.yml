@@ -19,13 +19,7 @@ title: MV Buddies Community
 # Short description of your site
 description: Gaming und Coding
 
-ftp_host: '173.212.235.105'
-ftp_dir: '/html'
-ftp_passive: false
 
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'ftpwww'     # default read from stdin
 
 
 
