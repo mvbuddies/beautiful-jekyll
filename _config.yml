@@ -19,7 +19,13 @@ title: MV Buddies Community
 # Short description of your site
 description: Gaming und Coding
 
+ftp_host: '173.212.235.105'
+ftp_dir: '/html'
+ftp_passive: false
 
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'ftpwww'     # default read from stdin
 
 
 
@@ -28,17 +34,17 @@ description: Gaming und Coding
 # List of links in the navigation bar
 navbar-links:
   <font color="#890000">Beitreten</font>: "http://discord.mvbuddies.de" #join
-  <strike>Über uns</strike>: "#" #aboutus
-  Projekte:
-    - Alle Projekte: "projects" #projects
-    - Gaming Projekte: "projects/gaming" #projects/gaming
-    - Coding Projekte: "projects/coding" #projects/coding
+  Gameserver: "gameserver" #aboutus
+  #Projekte:
+  #  - Alle Projekte: "projects" #projects
+  #  - Gaming Projekte: "projects/gaming" #projects/gaming
+  #  - Coding Projekte: "projects/coding" #projects/coding
+  Blog: "https://blog.mvbuddies.de"
   Mehr:
-    - Forum: "https://forum.mvbuddies.de"
-    - Blog: "https://blog.mvbuddies.de"
+    #- Forum: "https://forum.mvbuddies.de"
     - Feedback: "https://feedback.mvbuddies.de"
     - Status: "https://status.mvbuddies.de"
-    - <strike>Projekt suchen</strike>: "#" #https://mvbuddies.de/search
+    - Suchen: "search" #https://mvbuddies.de/search
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -267,6 +273,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-category-pages
+  - jekyll-ftp
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
