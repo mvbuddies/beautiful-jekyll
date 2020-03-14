@@ -8,7 +8,7 @@ bigimg: /img/big-imgs/gmod.jpg
 categories: gaming
 tags: [ttt, gmod, server]
 comments: true
-published: true
+published: false
 ---
 
 Wir bieten euch aktuell einen eigen Garrys Mod mit dem Spielmodus TTT an! Dieser Server verwendet fast 300 Objekte. Langeweile gibt es hier also auf jeden Fall nicht. Damit die Traitor nicht immer ihre 3-4 lieblings Waffen verwenden, haben wir einen Random Shop eingeführt, was einem zwingt nun auch mal andere Traitor Waffen zu verwenden.

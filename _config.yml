@@ -21,8 +21,6 @@ description: Gaming und Coding
 
 
 
-
-
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -36,7 +34,7 @@ navbar-links:
   Blog: "https://blog.mvbuddies.de"
   Mehr:
     #- Forum: "https://forum.mvbuddies.de"
-    - Feedback: "https://feedback.mvbuddies.de"
+    #- Feedback: "https://feedback.mvbuddies.de"
     - Status: "https://status.mvbuddies.de"
     - Suchen: "search" #https://mvbuddies.de/search
 

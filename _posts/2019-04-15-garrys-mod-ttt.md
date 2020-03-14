@@ -8,7 +8,7 @@ bigimg: /img/big-imgs/gmod.jpg
 categories: coding
 tags: [ttt, gmod, server, ubuntu]
 comments: true
-published: true
+published: false
 ---
 
 Wenn du wissen willst wie Du auf dem Server kommst schau doch mal beim [Blogpost](https://mvbuddies.de/projects/gaming/garrys-mod-ttt) in der Kategorie Gaming vorbei.
@@ -74,7 +74,7 @@ Alle möglichen Einstellungsmöglichkeiten findet ihr hier:
 Nachdem ihr nun die Kollektion erstellt, den apikey kopiert und ggf. eine server.cfg Datei angelegt habt lautet der Befehl zum starten des Servers wie folgt:  
 `./srcds_run -game garrysmod +gamemode terrortown +maxplayers 10 +exec server.cfg +map ttt_minecraft_b5 -authkey deinAPI-Schlüssel +host_workshop_collection 1624306589
 `
-  
+
 Zum Parameter `-authkey` fügst du deinen AuthKey ein. Beim Parameter `+host_workshop_collection` fügst du die ID deiner Kollektion ein. Die ID findest du am Ende der URL, wenn du auf der Seite deiner Kollektion bist.
 
 Wenn es noch weitere Fragen gibt, melde dich gerne in unserem [Forum](https://forum.mvbuddies.de) oder auf unserem [Discord](http://discord.mvbuddies.de)
