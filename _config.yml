@@ -26,7 +26,7 @@ description: Gaming und Coding
 # List of links in the navigation bar
 navbar-links:
   <font color="#890000">Beitreten</font>: "http://discord.mvbuddies.de" #join
-  Gameserver: "gameserver" #aboutus
+  #Gameserver: "gameserver" #aboutus
   #Projekte:
   #  - Alle Projekte: "projects" #projects
   #  - Gaming Projekte: "projects/gaming" #projects/gaming
